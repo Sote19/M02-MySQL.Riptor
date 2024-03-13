@@ -1,5 +1,7 @@
 import random
 
+#ESTE ES ESPECIAL PARA UNA TIENDA DE ROPA, CAMBIARLO CON VUESTROS PRODUCTOS Y TABLAS!!!
+
 # Lista de valores para generar datos aleatorios
 nombres_productos = ["Camiseta", "Pantalón", "Zapatillas", "Chaqueta", "Sudadera", "Gorra", "Jeans", "Botas", "Polo"]
 colores = ["Negro", "Blanco", "Azul", "Gris", "Rojo", "Verde", "Amarillo"]
@@ -12,7 +14,7 @@ materiales = ["Algodón", "Denim", "Malla", "Cuero", "Poliéster"]
 def valor_aleatorio(lista):
     return random.choice(lista)
 
-# Generar el INSERT con los 20,000 registros
+# Generar el INSERT con los 5000 registros
 insert = "INSERT INTO Productos (nombre, precio, color, marca, stock, descripcion, categoria, materiales) VALUES\n"
 
 for i in range(5000):
