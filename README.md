@@ -1,2 +1,2 @@
-Base de datos 1ASIX.
-Dedicado a una sencilla tienda de ropa urbana "RIPTOR"
+Base de datos 1ASIX. <hr>
+Scripts en python, que hemos usado para hacer los inserts a las tablas.
