@@ -12,7 +12,7 @@ def valor_aleatorio(lista):
     return random.choice(lista)
 
 # Generar el INSERT con los 5000 registros
-insert = "INSERT INTO Gorras_Gorros (talla_gorr, cierre_gorr, visera_gorr) VALUES\n"
+insert = "INSERT INTO Gorras_Gorros (talla_gorr, visera_gorr, cierre_gorr ) VALUES\n"
 
 for i in range(50):
     talla = valor_aleatorio(talla_gorr)
@@ -20,7 +20,7 @@ for i in range(50):
     viseras = valor_aleatorio(visera_gorr)
     
     # Agregar los valores al INSERT
-    insert += f"('{talla}', {cierres}, '{viseras}'),\n"
+    insert += f"('{talla}', {viseras}, '{cierres}'),\n"
 
 # Eliminar la coma extra al final y agregar punto y coma
 insert = insert[:-2] + ";"
