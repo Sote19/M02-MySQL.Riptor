@@ -1,3 +1,4 @@
 Base de datos 1ASIX.
 Dedicado a una sencilla tienda de ropa urbana "RIPTOR" <hr>
-En esta carpeta encontrais, el codigo SQL y la base de datos Grafica
+Aqui volcamos todos los INSERTS, ya ejecutados por python
+para copiar y pegar directo al codigo
