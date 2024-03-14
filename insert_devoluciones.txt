@@ -1,0 +1,16 @@
+INSERT INTO Devolucion (fecha_dev, motivo_dev) VALUES      
+('14-12-2023', No se ajusta correctamente'),
+('12-01-2023', Color no coincidente con la descripción'),  
+('18-02-2023', Estilo o diseño no conforme a lo esperado'),
+('24-12-2023', Color no coincidente con la descripción'),  
+('01-11-2023', Problemas de costura'),
+('08-11-2023', Defecto de fabricación'),
+('14-08-2023', Estilo o diseño no conforme a lo esperado'),
+('29-08-2023', Defecto de fabricación'),
+('12-12-2023', Estilo o diseño no conforme a lo esperado'),
+('12-05-2023', Material de baja calidad'),
+('28-05-2023', Cambio de opinión del cliente'),
+('20-07-2023', Talla incorrecta'),
+('01-04-2023', Cambio de opinión del cliente'),
+('19-01-2023', Estilo o diseño no conforme a lo esperado'),
+('01-09-2023', Color no coincidente con la descripción');
